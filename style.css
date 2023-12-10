@@ -1,0 +1,176 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    font-size: larger;
+    height: 7vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(210, 210, 210);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+header > a {
+    text-decoration: none;
+    color: black;
+}
+header > a:hover {
+    color: black;
+    text-decoration: underline;
+    background-color: rgb(210, 210, 210);
+    padding-inline: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+section {
+    padding-top: 50.23px;
+    padding-bottom: 50.23px;
+}
+section#accueil {
+    background-image: url("images/photo_montagne2.jpg");
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    height: 93vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section#accueil > p {
+    background-color: rgba(231, 249, 255, 0.393);
+    padding-inline: 15px;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Caveat', cursive;
+}
+p#presentation {
+    font-size: 20px;
+    margin-inline: 10%;
+}
+#formations > ul, #expérience > ul, #réalisation > ul, #intérêts > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+#iut, #lycee, #expérience > ul > li, #réalisation > ul > li, #intérêts > ul > li {
+    text-align: center;
+    width: 25%;
+    margin-inline: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-inline: 15px;
+}
+h1 {
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+    color: black;
+}
+li {
+    list-style: none;
+}
+li > h2 > a {
+    text-decoration: none;
+    color: black;
+}
+li > h2 > a:hover {
+    text-decoration: underline;
+}
+#iut {
+    background-image: url(images/iut.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#lycee {
+    background-image: url(images/lycee_pablo_neruda.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#expérience {
+    background-color: rgb(210, 210, 210);
+}
+#mdl {
+    background-image: url(images/MDL1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+#domene {
+    background-image: url(images/domene.jpg);
+    background-position: center;
+    background-size: cover;
+    border: rgb(210, 210, 210)
+}
+#réalisation > ul > li {
+    background-color: rgb(210, 210, 210);
+}
+#intérêts {
+    background-color: rgb(210, 210, 210);
+}
+#bad {
+    background-image: url(images/logo_bva.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+#flute {
+    background-image: url(images/ecole_de_musique_domene.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+#ski {
+    background-image: url(images/ski.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#livre {
+    background-image: url(images/livre.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+#jeux_videos {
+    background-image: url(images/developpeuse_de_jeux_video.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+.txt > h2 {
+    background-color: rgb(231, 249, 255, 0.393);
+    border-radius: 20px;
+    margin-inline: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-inline: 15px;
+}
+.txt > p {
+    opacity: 0;
+}
+.txt > p:hover {
+    opacity: 1;
+}
+#iut:hover, #lycee:hover, #mdl:hover, #domene:hover, section > ul > #bad:hover, #flute:hover, #ski:hover, #livre:hover, #jeux_videos:hover {
+    background-image: none;
+    background-color: rgb(210, 210, 210);
+}
