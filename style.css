@@ -23,11 +23,9 @@ header > a {
 header > a:hover {
     color: black;
     text-decoration: underline;
-    background-color: rgb(210, 210, 210);
-    padding-inline: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 20px;
+    background-color: black;
+    color: rgb(210, 210, 210);
+    padding: 15px;
 }
 section {
     padding-top: 50.23px;
@@ -51,7 +49,7 @@ h1 {
     justify-content: center;
 }
 section#accueil > p {
-    background-color: rgba(231, 249, 255, 0.393);
+    background-color: rgba(231, 249, 255, 0.500);
     padding-inline: 15px;
     border-radius: 20px;
     color: black;
@@ -156,8 +154,8 @@ li > h2 > a:hover {
     background-repeat: no-repeat;
     background-color: white;
 }
-.txt > h2 {
-    background-color: rgb(231, 249, 255, 0.393);
+div.txt > h2 {
+    background-color: rgba(231, 249, 255, 0.500);
     border-radius: 20px;
     margin-inline: 2%;
     margin-top: 2%;
@@ -170,7 +168,23 @@ li > h2 > a:hover {
 .txt > p:hover {
     opacity: 1;
 }
-#iut:hover, #lycee:hover, #mdl:hover, #domene:hover, section > ul > #bad:hover, #flute:hover, #ski:hover, #livre:hover, #jeux_videos:hover {
+#mdl:hover, #domene:hover, #bad:hover, #flute:hover, #ski:hover, #livre:hover, #jeux_videos:hover {
+    background-image: none;
+    background-color: white;
+}
+#iut:hover, #lycee:hover {
     background-image: none;
     background-color: rgb(210, 210, 210);
+}
+#contact > form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+#contact > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
