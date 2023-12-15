@@ -141,7 +141,9 @@ li > h2 > a:hover {
 #site {
     background-image: url("images/nvidia.png");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(210,210,210);
 }
 #platformer {
     background-image: url("images/platformer_niveau_3.png");
