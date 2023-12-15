@@ -143,6 +143,17 @@ li > h2 > a:hover {
     background-position: center;
     background-size: cover;
 }
+#platformer {
+    background-image: url("images/platformer_niveau_3.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(210,210,210);
+}
+#agile:hover, #bdd:hover, #mathemon:hover, #site:hover, #platformer:hover {
+    background-image: none;
+    background-color: rgb(210,210,210);
+}
 #intérêts {
     background-color: rgb(210, 210, 210);
 }
