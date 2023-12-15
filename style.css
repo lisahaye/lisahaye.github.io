@@ -119,6 +119,21 @@ li > h2 > a:hover {
 #réalisation > ul > li {
     background-color: rgb(210, 210, 210);
 }
+#agile {
+    background-image: url("images/methode_agile.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#bdd {
+    background-image: url("images/bdd.webp");
+    background-position: center;
+    background-size: cover;
+}
+#site {
+    background-image: url("images/nvidia.png");
+    background-position: center;
+    background-size: cover;
+}
 #intérêts {
     background-color: rgb(210, 210, 210);
 }
