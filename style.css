@@ -69,7 +69,7 @@ p#presentation {
 #iut, #lycee, #expérience > ul > li, #réalisation > ul > li, #intérêts > ul > li {
     text-align: center;
     width: 25%;
-    height: 30vh;
+    height: 40vh;
     margin-inline: 2%;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -203,7 +203,7 @@ div.txt > h2 {
 .txt > p {
     opacity: 0;
 }
-.txt > p:hover {
+li:hover > .txt > p {
     opacity: 1;
 }
 #mdl:hover, #domene:hover, #bad:hover, #flute:hover, #ski:hover, #livre:hover, #jeux_videos:hover {
