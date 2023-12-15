@@ -122,10 +122,17 @@ li > h2 > a:hover {
 #agile {
     background-image: url("images/methode_agile.jpg");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(210,210,210);
 }
 #bdd {
     background-image: url("images/bdd.webp");
+    background-position: center;
+    background-size: cover;
+}
+#mathemon {
+    background-image: url("images/mathemon.png");
     background-position: center;
     background-size: cover;
 }
