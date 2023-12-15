@@ -134,7 +134,9 @@ li > h2 > a:hover {
 #mathemon {
     background-image: url("images/mathemon.png");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(210,210,210);
 }
 #site {
     background-image: url("images/nvidia.png");
