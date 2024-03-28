@@ -47,13 +47,16 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
 }
 section#accueil > p {
-    background-color: rgba(231, 249, 255, 0.500);
+    background-color: rgba(231, 249, 255, 0.65);
     padding-inline: 15px;
     border-radius: 20px;
     color: black;
-    font-family: 'Caveat', cursive;
+}
+p#presentation {
+    font-weight: bold;
 }
 p#presentation {
     font-size: 20px;
@@ -102,6 +105,13 @@ li > h2 > a:hover {
 }
 #expérience {
     background-color: rgb(210, 210, 210);
+}
+#univ_lille {
+    background-image: url(images/iut.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
 }
 #mdl {
     background-image: url(images/MDL1.jpg);
@@ -193,7 +203,8 @@ li > h2 > a:hover {
     background-color: white;
 }
 div.txt > h2 {
-    background-color: rgba(231, 249, 255, 0.500);
+    background-color: rgba(231, 249, 255, 0.65);
+    font-weight: bold;
     border-radius: 20px;
     margin-inline: 2%;
     margin-top: 2%;
@@ -206,7 +217,7 @@ div.txt > h2 {
 li:hover > .txt > p {
     opacity: 1;
 }
-#mdl:hover, #domene:hover, #bad:hover, #flute:hover, #ski:hover, #livre:hover, #jeux_videos:hover {
+#univ_lille:hover, #mdl:hover, #domene:hover, #bad:hover, #flute:hover, #ski:hover, #livre:hover, #jeux_videos:hover {
     background-image: none;
     background-color: white;
 }
