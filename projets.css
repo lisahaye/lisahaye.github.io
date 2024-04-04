@@ -1,0 +1,63 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    font-size: larger;
+    height: 7vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(210, 210, 210);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+header > a {
+    text-decoration: none;
+    color: black;
+}
+header > a:hover {
+    color: black;
+    text-decoration: underline;
+    background-color: black;
+    color: rgb(210, 210, 210);
+    padding: 15px;
+}
+section#image {
+    background-image: url("images/photo_montagne2.jpg");
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    height: 45vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+}
+section {
+    padding-top: 50.23px;
+    padding-bottom: 50.23px;
+}
+#techno {
+    background-color: rgb(210, 210, 210);
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+    color: black;
+}
+section#image > h1 {
+    background-color: rgba(231, 249, 255, 0.65);
+    padding-inline: 15px;
+    border-radius: 20px;
+    color: black;
+}
