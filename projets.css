@@ -28,22 +28,21 @@ header > a:hover {
     padding: 15px;
 }
 section#image {
-    background-image: url("images/photo_montagne2.jpg");
-    background-position: center center;
-    background-size: cover;
     display: flex;
-    height: 45vh;
+    height: 41vh;
     width: 100%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     font-size: 40px;
+    background-color: rgb(210, 210, 210);
+    margin-top: 7vh;
 }
 section {
     padding-top: 50.23px;
     padding-bottom: 50.23px;
 }
-#techno {
+#techno, #lien {
     background-color: rgb(210, 210, 210);
 }
 h1 {
@@ -60,4 +59,21 @@ section#image > h1 {
     padding-inline: 15px;
     border-radius: 20px;
     color: black;
+    font-size: 60px;
+}
+#presentation > h3 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#techno > ul > li, #competences > ul > li, #lien > h2 {
+    display: flex;
+    justify-content: center;
+}
+#lien > h2 > a {
+    text-decoration: none;
+    color: black;
+}
+#lien > h2 > a:hover {
+    text-decoration: underline;
+    color: blue;
 }

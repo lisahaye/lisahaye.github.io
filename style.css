@@ -36,12 +36,13 @@ section#accueil {
     background-position: center center;
     background-size: cover;
     display: flex;
-    height: 93vh;
+    height: 82vh;
     width: 100%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     font-size: 40px;
+    margin-top: 7vh;
 }
 h1 {
     display: flex;
@@ -91,6 +92,7 @@ li > h2 > a {
 }
 li > h2 > a:hover {
     text-decoration: underline;
+    color: blue;
 }
 #iut {
     background-image: url(images/iut.jpg);
@@ -106,7 +108,7 @@ li > h2 > a:hover {
     background-color: rgb(210, 210, 210);
 }
 #univ_lille {
-    background-image: url(images/iut.jpg);
+    background-image: url(images/univ_lille.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -127,6 +129,12 @@ li > h2 > a:hover {
 }
 #réalisation > ul > li {
     background-color: rgb(210, 210, 210);
+}
+#sib {
+    background-image: url("images/sib_ecran_accueil.png");
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(210,210,210);
 }
 #agile {
     background-image: url("images/methode_agile.jpg");
@@ -161,7 +169,7 @@ li > h2 > a:hover {
     background-repeat: no-repeat;
     background-color: rgb(210,210,210);
 }
-#agile:hover, #bdd:hover, #mathemon:hover, #site:hover, #platformer:hover {
+#sib:hover, #pizza:hover, #hobbit:hover, #agile:hover, #bdd:hover, #mathemon:hover, #site:hover, #platformer:hover {
     background-image: none;
     background-color: rgb(210,210,210);
 }
