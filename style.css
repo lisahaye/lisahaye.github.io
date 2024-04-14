@@ -136,8 +136,21 @@ li > h2 > a:hover {
     background-size: cover;
     background-color: rgb(210,210,210);
 }
+#pizza {
+    background-image: url("images/api_rest_delete.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(210, 210, 210);
+}
+#hobbit {
+    background-image: url("images/chasse_au_hobbit_ecran_accueil.png");
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(210, 210, 210);
+}
 #agile {
-    background-image: url("images/methode_agile.jpg");
+    background-image: url("images/roguelike_accueil.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -149,7 +162,7 @@ li > h2 > a:hover {
     background-size: cover;
 }
 #mathemon {
-    background-image: url("images/mathemon.png");
+    background-image: url("images/mathemon_affichage_stat.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
