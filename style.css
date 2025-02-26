@@ -66,14 +66,14 @@ p#presentation {
     font-size: 20px;
     margin-inline: 10%;
 }
-#formations > ul, #expérience > ul, #réalisation > ul, #intérêts > ul {
+#formations > ul, #expérience > ul, #réalisation > ul, #competences > ul, #intérêts > ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-flow: row;
     flex-wrap: wrap;
 }
-#iut, #lycee, #expérience > ul > li, #réalisation > ul > li, #intérêts > ul > li {
+#iut, #lycee, #expérience > ul > li, #réalisation > ul > li, #competences > ul > li, #intérêts > ul > li {
     text-align: center;
     width: 25%;
     height: 40vh;
@@ -200,7 +200,7 @@ li > h2 > a:hover {
     background-image: none;
     background-color: rgb(210,210,210);
 }
-#intérêts {
+#competences {
     background-color: rgb(210, 210, 210);
 }
 #bad {
@@ -258,6 +258,48 @@ li:hover > .txt > p {
 #iut:hover, #lycee:hover {
     background-image: none;
     background-color: rgb(210, 210, 210);
+}
+#contact {
+    background-color: rgb(210, 210, 210);
+}
+#spring {
+    background-image: url(images/spring.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+#react {
+    background-image: url(images/react.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+#no_sql {
+    background-image: url(images/mongo_db.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+#git {
+    background-image: url(images/git.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+#kotlin {
+    background-image: url(images/kotlin.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+#spring:hover, #react:hover, #no_sql:hover, #git:hover, #kotlin:hover {
+    background-image: none;
+    background-color: white;
 }
 #contact > form {
     display: flex;
