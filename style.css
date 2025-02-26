@@ -107,6 +107,20 @@ li > h2 > a:hover {
 #expérience {
     background-color: rgb(210, 210, 210);
 }
+#alternance_nextoo {
+    background-image: url(images/logo_nextoo2.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+#stage_nextoo {
+    background-image: url(images/LOGO-NEXTOO.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
 #univ_lille {
     background-image: url(images/univ_lille.jpg);
     background-position: center;
@@ -237,7 +251,7 @@ div.txt > h2 {
 li:hover > .txt > p {
     opacity: 1;
 }
-#univ_lille:hover, #mdl:hover, #domene:hover, #bad:hover, #flute:hover, #ski:hover, #livre:hover, #jeux_videos:hover {
+#alternance_nextoo:hover, #stage_nextoo:hover, #univ_lille:hover, #mdl:hover, #domene:hover, #bad:hover, #flute:hover, #ski:hover, #livre:hover, #jeux_videos:hover {
     background-image: none;
     background-color: white;
 }
